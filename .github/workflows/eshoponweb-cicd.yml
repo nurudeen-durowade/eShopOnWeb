@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: money-stack-nurudeen-rg
-  LOCATION: eastus
+  LOCATION: uksouth
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: cac01b26-0796-4643-8414-ed7881ecfd20
   WEBAPP-NAME: eshoponweb-webapp-moneystack
